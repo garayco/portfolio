@@ -1,4 +1,4 @@
-/* import Rive from "@rive-app/react-canvas"; */
+import Rive from "@rive-app/react-canvas";
 
 /**
  * resume
@@ -12,10 +12,10 @@ export function Home() {
     <>
       <div>
         <h1>Home</h1>
-{/*         <Rive
+        <Rive
           src="https://cdn.rive.app/animations/vehicles.riv"
           stateMachines="bumpy"
-        /> */}
+        />
       </div>
     </>
   );

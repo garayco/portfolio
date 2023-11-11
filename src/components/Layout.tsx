@@ -9,7 +9,7 @@ export const Layout: React.FC = () => {
         <Link to={getWithBasePath()}>Home</Link>
         <Link to={getWithBasePath("contact")}>Contact</Link>
       </nav>
-      <div><Outlet /></div>
+      <Outlet />
     </div>
   );
 };
