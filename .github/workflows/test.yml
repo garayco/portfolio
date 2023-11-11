@@ -1,0 +1,13 @@
+name: Test 
+
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    branches:        
+      - main
+
+jobs: 
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "test xDDDDD"
