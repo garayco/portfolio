@@ -2,7 +2,7 @@ import { Home } from "../pages/Home";
 import { Contact } from "../pages/Contact";
 import { getWithBasePath } from "../utils/getWithBasePath";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Layout } from "../components/Layout";
+import { Layout } from "../Layout";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +21,5 @@ const router = createBrowserRouter([
 ]);
 
 export function RouterConfiguration() {
-  console.log(getWithBasePath())
   return <RouterProvider router={router} />;
 }

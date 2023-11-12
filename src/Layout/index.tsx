@@ -1,15 +1,15 @@
-import { Link, Outlet } from "react-router-dom";
-import { getWithBasePath } from "../utils/getWithBasePath";
+import { Outlet } from "react-router-dom";
+
 
 
 export const Layout: React.FC = () => {
   return (
-    <div>
-      <nav>
+    <>
+{/*       <nav>
         <Link to={getWithBasePath()}>Home</Link>
         <Link to={getWithBasePath("contact")}>Contact</Link>
-      </nav>
+      </nav> */}
       <Outlet />
-    </div>
+    </>
   );
 };
